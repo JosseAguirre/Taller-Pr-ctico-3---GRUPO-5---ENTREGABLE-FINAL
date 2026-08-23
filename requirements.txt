@@ -1,0 +1,11 @@
+# Dependencias principales para procesamiento de datos
+pandas>=2.0.0
+numpy>=1.22.0
+
+# Motores de lectura/escritura de formatos específicos
+openpyxl>=3.1.0    # Para lectura de archivos Excel (.xlsx)
+pyarrow>=12.0.0    # Para exportación de alta fidelidad a formato Parquet
+
+# Visualización ejecutiva y soporte interactivo en Colab
+matplotlib>=3.5.0
+ipython>=8.0.0
